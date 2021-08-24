@@ -25,7 +25,7 @@
 | Colum              | Type       | Options                        |
 | ------------------ | ---------- | ------------------------------ |
 | title              | string     | null: false                    |
-| text               | integer    | null: false                    |
+| text               | text       | null: false                    |
 | category_id        | integer    | null: false                    | 
 | condition_id       | integer    | null: false                    |
 | delivery_fee_id    | integer    | null: false                    |
@@ -59,7 +59,7 @@
 | Colum              | Type       | Options                        |
 | ------------------ | ---------- | ------------------------------ |
 | postcode           | string     | null: false                    |
-| prefectures        | text       | null: false                    |
+| prefectures        | integer    | null: false                    |
 | city               | string     | null: false                    | 
 | block              | string     | null: false                    |
 | building           | string     |                                |
