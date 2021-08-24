@@ -17,16 +17,13 @@
                     <mxGeometry y="100" width="200" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="119" value="items" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="40" width="220" height="320" as="geometry"/>
-                </mxCell>
-                <mxCell id="120" value="images" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="119" vertex="1">
-                    <mxGeometry y="40" width="220" height="26" as="geometry"/>
+                    <mxGeometry x="440" y="40" width="220" height="294" as="geometry"/>
                 </mxCell>
                 <mxCell id="121" value="title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="119" vertex="1">
-                    <mxGeometry y="66" width="220" height="26" as="geometry"/>
+                    <mxGeometry y="40" width="220" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="144" value="text&#10;&#10;category&#10;&#10;condition&#10;&#10;delivery_fee&#10;&#10;prefectures&#10;&#10;days&#10;&#10;price&#10;&#10;user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="119" vertex="1">
-                    <mxGeometry y="92" width="220" height="228" as="geometry"/>
+                <mxCell id="144" value="text&#10;&#10;category&#10;&#10;condition&#10;&#10;delivery_fee&#10;&#10;prefecture&#10;&#10;days&#10;&#10;price&#10;&#10;user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="119" vertex="1">
+                    <mxGeometry y="66" width="220" height="228" as="geometry"/>
                 </mxCell>
                 <mxCell id="126" value="orders" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="230" y="493" width="230" height="92" as="geometry"/>
@@ -46,7 +43,7 @@
                 <mxCell id="132" value="postcode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="130" vertex="1">
                     <mxGeometry y="26" width="140" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="prefectures" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="130" vertex="1">
+                <mxCell id="131" value="prefecture" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="130" vertex="1">
                     <mxGeometry y="52" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="133" value="city&#10;&#10;block&#10;&#10;building&#10;&#10;telephone_number&#10;&#10;order&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="130" vertex="1">
