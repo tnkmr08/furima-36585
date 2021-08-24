@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ETX-mJ5-Mu-S_4Yu1fyU" name="ページ1">
-        <mxGraphModel dx="693" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="665" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -25,7 +25,7 @@
                 <mxCell id="121" value="title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="119" vertex="1">
                     <mxGeometry y="66" width="220" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="144" value="text&#10;&#10;category&#10;&#10;condition&#10;&#10;delivery_fee&#10;&#10;area&#10;&#10;days&#10;&#10;price&#10;&#10;user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="119" vertex="1">
+                <mxCell id="144" value="text&#10;&#10;category&#10;&#10;condition&#10;&#10;delivery_fee&#10;&#10;prefectures&#10;&#10;days&#10;&#10;price&#10;&#10;user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="119" vertex="1">
                     <mxGeometry y="92" width="220" height="228" as="geometry"/>
                 </mxCell>
                 <mxCell id="126" value="orders" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -121,7 +121,7 @@
                         <mxPoint x="370" y="700" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="157" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                <mxCell id="157" value="" style="endArrow=none;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="330" y="620" as="sourcePoint"/>
                         <mxPoint x="370" y="620" as="targetPoint"/>
