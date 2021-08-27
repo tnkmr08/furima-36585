@@ -15,7 +15,7 @@ class Item < ApplicationRecord
   validates :condition_id, numericality: { other_than: 1 , message: "can't be blank"}
   validates :delivery_fee_id, numericality: { other_than: 1 , message: "can't be blank"}
   validates :prefecture_id, numericality: {other_than: 1 , message: "can't be blank"}
-  validates :days_id, numericality: { other_than: 1 , message: "can't be blank"}
+  validates :day_id, numericality: { other_than: 1 , message: "can't be blank"}
   validates :price, presence: true, inclusion: { in: 300..9_999_999 }, numericality: { only_integer: true }
   validates :image, presence: true
 
