@@ -1,6 +1,6 @@
 class OrderShip
   include ActiveModel::Model
-  attr_accessor :postcode, :prefecture_id, :city, :block, :building, :telephone_number, :user_id, :item_id
+  attr_accessor :postcode, :prefecture_id, :city, :block, :building, :telephone_number, :user_id, :item_id, :token
 
   validates :user_id, presence: true
   validates :item_id, presence: true
@@ -10,6 +10,7 @@ class OrderShip
   validates :block, presence: true
   VARID_PHONE_REGEX = /\A\d{10}$|^\d{11}\z/
   validates :telephone_number, presence: true, format: {with: VARID_PHONE_REGEX}
+  validates :token, presence: true
   
 
   def save
