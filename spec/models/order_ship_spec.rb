@@ -71,6 +71,18 @@ RSpec.describe OrderShip, type: :model do
         expect(@order_ship.errors.full_messages).to include("Telephone number is invalid")
       end
 
+      it 'telephone_numberが9文字以下では保存できない' do
+        @order_ship.telephone_number = '090111'
+        @order_ship.valid?
+        expect(@order_ship.errors.full_messages).to include("Telephone number is invalid")
+      end
+
+      it 'telephone_numberが12文字以上では保存できない' do
+        @order_ship.telephone_number = '0901111111111'
+        @order_ship.valid?
+        expect(@order_ship.errors.full_messages).to include("Telephone number is invalid")
+      end
+
       it 'userが紐付いていないと保存できない' do
         @order_ship.user_id = nil
         @order_ship.valid?
